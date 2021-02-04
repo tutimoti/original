@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    z-index: 10000;
+    padding: 25px 0;
+}
+.navber .logo{
+    font-size: 1.5em;
+    text-transform:uppercase;
+    font-weight: 750;
+    letter-spacing: 2px;
+}
+.navbar ul.nav{
+    margin-right: 15%;
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+    background:rgba(255,255,255,.5) ;
+    color:#000;
+}
+.navbar ul.nav li a{
+    color:#fff;
+    font-size: 1em;
+    font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+    color:#000;
+}
+.logo:hover{
+    font-weight: 800;
+}
+/* Carousel With indicators */
+#carouselExampleIndicators{
+    position:relative;
+    height: 100vh;
+    width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+    position:relative;
+    height:100%;
+    width: 100%;
+    background: #000;
+}
+#carouselExampleIndicators .carousel-inner：before{
+    position:absolute;
+    content: '';
+    background: rgba(0,0,0,0.45);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item {
+    position: relative;
+    height:100%;
+    width:100%;
+    background:url('../img/living/living4.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) {
+    background:url('../img/living/living1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3) {
+    background:url('../img/living/living2.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4) {
+    background:url('../img/living/living6.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
+    background:url('../img/living/living7.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(6) {
+    background:url('../img/living/living9.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(7) {
+    background:url('../img/living/living10.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(8) {
+    background:url('../img/living/living14.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(9) {
+    background:url('../img/kitchn/Image180.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(10) {
+    background:url('../img/2room/Image245.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(11) {
+    background:url('../img/2room/Image251.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(12) {
+    background:url('../img/2room/Image258.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(13) {
+    background:url('../img/2room/1610937537360.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(14) {
+    background:url('../img/1room/1room1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(15) {
+    background:url('../img/1room/Image219.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(16) {
+    background:url('../img/1room/Image234.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(17) {
+    background:url('../img/3room/Image272.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(18) {
+    background:url('../img/3room/Image277.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(19) {
+    background:url('../img/3room/Image283.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(20) {
+    background:url('../img/wasitu/Image298.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(21) {
+    background:url('../img/wasitu/Image299.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(22) {
+    background:url('../img/wasitu/Image199.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(23) {
+    background:url('../img/gaikan/Image127.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(24) {
+    background:url('../img/gaikan/Image134.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(25) {
+    background:url('../img/bbq/bbq1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(26) {
+    background:url('../img/bbq/bbq2.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(27) {
+    background:url('../img/bbq/Image067.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(28) {
+    background:url('../img/bbq/syokuzai.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(29) {
+    background:url('../img/hoka/beach1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(30) {
+    background:url('../img/hoka/asahi.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height:auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h1{
+    height:auto;
+    width:100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 5.5em;
+    font-weight: 750;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+    height:auto;
+    width:100%;
+    color:rgba(10, 94, 240, 0.475);
+    text-align: center;
+    z-index: 1;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.living h1{
+    color:rgba(2, 12, 121, 0.454);
+}
+.kitchen h1{
+    color:rgba(106, 59, 2, 0.475)
+}
+.bedroom h1{
+    color:rgba(0, 101, 99, 0.475);
+}
+.gaikan h1{
+    color:rgba(0, 0, 0, 0.475);
+   
+}
+.bbq h1{
+    color:rgba(242, 242, 239, 0.708);
+   
+}
